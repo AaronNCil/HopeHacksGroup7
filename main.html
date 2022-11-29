@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HH</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">HH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#Alert" class="nav-link">Alert</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Donation" class="nav-link">Donation</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <section id="header" class=" text-light p-5 text-center">
+      <div class="container1 p-3">
+        <div class="d-sm-flex">
+          <div>
+            <h1 class="m-3">TEAM 7
+              <span class="team">HH</span>
+            </h1>
+            <p class="lead m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos optio, voluptatibus facere fuga, eum minima blanditiis deserunt reprehenderit qui beatae a, nam rem soluta vitae temporibus consequatur accusamus laudantium.</p>
+            <button class="btn btn-primary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#donation">Contact</button>
+          </div>
+          <img class="img-fluid w-50 m-4" src="img/undraw_weather_notification_re_3pad-2.svg" alt="weather forecast">
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="p-5 text-center position-relative">
+      <div class="container">
+        <p class="lead">COPYRIGHT &copy; 2022 Team 7's Hope Hack R2H COHORT 11</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle-h1-bg-white"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- CONTACT MODAL -->
+    <div class="modal fade" id="donation" tabindex="-1" role="dialog" aria-labelledby="donationLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="donationLabel">Get in touch!</h5>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </button>
+          </div>
+          <div class="modal-body">
+            <section id="contact" class="full-height px-lg-5 mb-3 p-3">
+              <form action="/api/user" method="POST" class="row g-lg-3 gy-3">
+                <div class="form-group col-md-6">
+                  <input
+                    name="fname"
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <input
+                    name="subject"
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter subject"
+                    required
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <textarea
+                    name="message"
+                    rows="4"
+                    class="form-control"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group col-12 d-grid">
+                  <button type="submit" class="btn btn-brand">Contact me</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
