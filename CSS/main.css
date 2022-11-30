@@ -11,7 +11,8 @@ nav, footer, #header {
   font-size: 4em;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-link:hover {
   color: #009688;
 }
 
@@ -21,11 +22,15 @@ nav, footer, #header {
 }
 
 .nav-link {
-  color: #009688;
+  color: #3e0046;
 }
 
-.container1 {
+.containerheader {
   background-color: #3e0046;
+}
+
+.containercard {
+  background-color: #f3f4f8;
 }
 
 .btn {
