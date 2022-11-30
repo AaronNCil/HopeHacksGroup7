@@ -1,11 +1,15 @@
 const express = require("express");
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
-const fs = require('fs');
+const path = require('path');
+
 
 const app = express();
 const port = process.env.PORT || 4000;
+app
+.use(express.static(path.join(__dirname, "/public")))
+.use(bodyParser.urlencoded({ extended: true }))
+.use(bodyParser.json());
 
 const conn = mysql.createConnection({
     host: "127.0.0.1",
@@ -24,19 +28,19 @@ conn.connect((err) => {
     console.log(`Connection is up and running`)
 })
 
-app.get('/', (req, res) => {
-    fs.readFile('./public/index.html', (err, data) => {
-        if (err) throw err;
-        res.write(data);
-    })
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "/public/main.html"));
 });
 
-app
-  .use(morgan("dev"))
-  .use(express.static("public"))
-  .use(bodyParser.urlencoded({ extended: true }))
-  .use(bodyParser.json())
-  .get("/api/user", async (req, res) => {
+app.get("/solution", (req, res) => {
+  res.sendFile(path.join(__dirname, "/public/solution.html"));
+});
+
+app.get("/aqi", (req, res) => {
+  res.sendFile(path.join(__dirname, "/public/aqi.html"));
+});
+
+app.get("/api/user", async (req, res) => {
     const users = await conn.query(`
         SELECT
         *
@@ -56,16 +60,9 @@ app.post("/api/user", (req, res) => {
   const body = req.body;
 
    const mysqlString = 
-      `
-    INSERT INTO contact_form (
-        fname,
-        email,
-        subject,
-        message
-    ) VALUES (
-       ?
-    )
-`;
+      ` INSERT INTO contact_form (fname, email, subject, message) 
+        VALUES (?)`;
+        
     const values = [
         [body.fname],
         [body.email],
@@ -78,6 +75,7 @@ app.post("/api/user", (req, res) => {
         console.log("added user" + result.affectedRows);
       })
       
+    res.redirect('/')
     console.log('added user');
   })
   
