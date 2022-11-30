@@ -1,5 +1,7 @@
 body{
     font-family: 'Ramabhadra', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 nav, footer, #header{
     background-color: #f3f4f8;
@@ -22,7 +24,7 @@ nav, footer, #header{
 .containerheader{
     background-color: #3e0046;
 }
-.containercard{
+.containercard, .cardheader{
     background-color: #f3f4f8;
 }
 .btn{
