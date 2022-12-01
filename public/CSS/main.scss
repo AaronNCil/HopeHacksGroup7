@@ -1,0 +1,52 @@
+body{
+    font-family: 'Ramabhadra', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav,
+footer,
+#header{
+    background-color: #f3f4f8;
+}
+.navbar-brand{
+    color: #3e0046; 
+    font-size: 4em;
+}
+.navbar-brand:hover,
+.nav-link:hover{
+    color: #009688;
+}
+.navbar-toggler{
+    background-color: #009688;
+    font-size: large;
+};
+.nav-link,
+h1,
+h2{
+    color: #3e0046;
+}
+.containerheader{
+    background-color: #3e0046;
+}
+.containercard1,
+.containercard2,
+.containercard3,
+.cardheader, 
+.container{
+    background-color: #f3f4f8;
+}
+.list-group li{
+    background-color: #f3f4f8;
+}
+.btn{
+    color: #f3f4f8;
+}
+.btn:hover{
+    text-decoration: none
+};
+.team{
+    color: #009688
+};
+input:focus::placeholder{
+    color: transparent;
+}
