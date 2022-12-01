@@ -15,7 +15,10 @@ function fetchApi() {
         .catch(err => console.error(err));
 }
 function handleFetch(data) {
-    console.log(data)
+    data.forEach(data => {
+        let html = '';
+        html += ``
+    })
 }
 
 
@@ -35,8 +38,8 @@ function handleFetch(data) {
 
 
 //fetching first party api
-const dataList = document.querySelector('.containercard');
-const solutionList = document.querySelector('.containercards')
+const dataList = document.querySelector('.containercard1');
+const solutionList = document.querySelector('.containercard2')
 
 function loadJSON(){
     fetch('data.json') // grabs json data
