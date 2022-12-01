@@ -20,7 +20,9 @@ footer,
     background-color: #009688;
     font-size: large;
 };
-.nav-link{
+.nav-link,
+h1,
+h2{
     color: #3e0046;
 }
 .containerheader{
@@ -37,6 +39,7 @@ footer,
 .btn{
     background-color: #3f51b5;
     color: #f3f4f8;
+    text-decoration: none;
 }
 .team{
     color: #009688
