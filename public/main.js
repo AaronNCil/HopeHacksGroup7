@@ -14,6 +14,7 @@ function fetchApi() {
         .then(response => handleFetch(response))
         .catch(err => console.error(err));
 }
+
 function handleFetch(data) {
     data.forEach(data => {
         let html = '';
@@ -72,7 +73,7 @@ function solutionJSON(){
             <div class="card border-0 mb-5 p-5" style="background-color: #f3f4f8;">
         <div class="row">
             <div class="col-md-4">
-                <img src="..." alt="" class="img-fluid">
+                <img src="${data.img}" alt="" class="img-fluid">
             </div>
             <div class="col-md-8">
                 <h2 class="card-title mt-3">${data.title}</h2>
