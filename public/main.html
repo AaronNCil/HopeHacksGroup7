@@ -16,58 +16,61 @@
     <link rel="stylesheet" href="./CSS/main.css" />
   </head>
   <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-dark">
-      <div class="container">
-        <a href="#" class="navbar-brand">HH</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="../public/aqi.html" class="nav-link">Air Quality</a>
-            </li>
-            <li class="nav-item">
-              <a href="../public/solution.html" class="nav-link">Our Solutions</a>
-            </li>
-        </div>
-      </div>
-    </nav>
+<!-- NAV BAR -->
+<nav class="navbar navbar-dark">
+  <div class="container">
+      <a href="main.html" class="navbar-brand">
+      <img src="img/logo-no-background (1).svg" class="my-4" alt="logo" height="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+          <a href="aqi.html" class="nav-link px-5">Air Quality</a>
+          </li>
+          <li class="nav-item">
+          <a href="solution.html" class="nav-link px-5">Our Solutions</a>
+          </li>
+      </ul>
+  </div>
+  </div>
+</nav>
     <!-- HEADER -->
-    <section id="header" class=" text-light p-5 text-center">
-      <div class="containerheader p-3">
-        <div class="d-sm-flex">
-          <div>
-            <h1 class="m-3">TEAM 7
-              <span class="team">HH</span>
-            </h1>
-            <p class="lead m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos optio, voluptatibus facere fuga, eum minima blanditiis deserunt reprehenderit qui beatae a, nam rem soluta vitae temporibus consequatur accusamus laudantium.</p>
-            <button class="btn btn-primary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#contact">Contact</button>
-          </div>
-          <img class="img-fluid w-50 m-4" src="/img/undraw_weather_notification_re_3pad-2.svg" alt="weather forecast">
+<section id="header" class=" text-light text-center">
+  <div class="containerheader p-3">
+    <div class="d-sm-flex">
+      <div>
+        <h1 class="m-3">TEAM 7
+          <span class="team">HH</span>
+        </h1>
+          <p class="lead m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos optio, voluptatibus facere fuga, eum minima blanditiis deserunt reprehenderit qui beatae a, nam rem soluta vitae temporibus consequatur accusamus laudantium.</p>
+          <button class="btn btn-primary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#contact">Contact</button>
         </div>
-      </div>
-    </section>
+          <img class="img-fluid w-50 m-4" src="/img/undraw_weather_notification_re_3pad-2.svg" alt="weather forecast">
+    </div>
+  </div>
+</section>
     <!-- CARD -->
     <h1 class="cardheader text-center d-flex justify-content-center m-0 p-5">Our solutions to the polution problem</h1>
     <div class="containercard text-wrap d-flex justify-content-evenly flex-row-reverse  p-5">
-    <div class="card d-flex justify-content-center" style="width: 18rem;">
-      <div class="card-body">
+    <div class="card d-flex justify-content-center border-0" style="width: 18rem;">
+      <div class="card-body" style="background-color: #f3f4f8;">
         <h5 class="card-title">Card title</h5>
         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Primary link</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
+    <div class="card border-0" style="width: 18rem;">
+      <div class="card-body" style="background-color: #f3f4f8;">
         <h5 class="card-title">Card title</h5>
         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Primary link</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
+    <div class="card border-0" style="width: 18rem;">
+      <div class="card-body" style="background-color: #f3f4f8;">
         <h5 class="card-title">Card title</h5>
         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -76,14 +79,14 @@
     </div>
   </div>
     <!-- FOOTER -->
-    <footer class="p-5 text-center position-relative">
-      <div class="container">
-        <p class="lead">COPYRIGHT &copy; 2022 Team 7's Hope Hack R2H COHORT 11</p>
-        <a href="#" class="position-absolute bottom-0 end-0 p-5">
-          <i class="bi bi-arrow-up-circle-h1-bg-white"></i>
-        </a>
-      </div>
-    </footer>
+<footer class="p-5 text-center position-relative">
+  <div class="container">
+    <p class="lead">COPYRIGHT &copy; 2022 Team 7's Hope Hack R2H COHORT 11</p>
+    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+      <i class="bi bi-arrow-up-circle-h1-bg-white"></i>
+    </a>
+  </div>
+</footer>
     <!-- CONTACT MODAL -->
     <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
