@@ -3,7 +3,9 @@ body{
     padding: 0;
     margin: 0;
 }
-nav, footer, #header{
+nav,
+footer,
+#header{
     background-color: #f3f4f8;
 }
 .navbar-brand{
@@ -24,7 +26,12 @@ nav, footer, #header{
 .containerheader{
     background-color: #3e0046;
 }
-.containercard, .cardheader{
+.containercard,
+.cardheader, 
+.container{
+    background-color: #f3f4f8;
+}
+.list-group li{
     background-color: #f3f4f8;
 }
 .btn{
@@ -34,3 +41,6 @@ nav, footer, #header{
 .team{
     color: #009688
 };
+input:focus::placeholder{
+    color: transparent;
+}

@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!-- NAV BAR -->
@@ -35,7 +36,34 @@
     </div>
     </div>
 </nav>
-    <!-- FOOTER -->
+<!-- MAIN -->
+<h1 class="containercard pt-5 m-0 d-flex justify-content-center">Air Quality Index Search</h1>
+<div class="containercard py-3">
+    <div class="row height d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+            <div class="form">
+                <input type="text" id="searchInput" class="form-control form-input" placeholder="Search for a city">
+            </div>
+        </div>
+    </div>
+</div>
+<section class="containercard d-flex justify-content-center py-5">
+    <div class="containercard text-center border-0" style="width: 60rem;">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/062.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+            <div class="card-body">
+                <h3 class="card-title pt-5">OVERALL AQI</h3>
+                <h1 class="card-text p-2">55</h1>
+                <ul class="list-group list-group-light list-group-small">
+                    <li class="list-group-item px-4 border-0">Carbon monoxide (CO):</li>
+                    <li class="list-group-item px-4 border-0">Nitrogen dioxide (NO2):</li>
+                    <li class="list-group-item px-4 border-0">Ozone (O3):</li>
+                    <li class="list-group-item px-4 border-0">Sulphur dioxide (SO2):</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
 <footer class="p-5 text-center position-relative">
     <div class="container">
         <p class="lead">COPYRIGHT &copy; 2022 Team 7's Hope Hack R2H COHORT 11</p>
@@ -49,6 +77,6 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"
 ></script>
-<script src="/main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

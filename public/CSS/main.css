@@ -4,7 +4,9 @@ body {
   margin: 0;
 }
 
-nav, footer, #header {
+nav,
+footer,
+#header {
   background-color: #f3f4f8;
 }
 
@@ -31,7 +33,13 @@ nav, footer, #header {
   background-color: #3e0046;
 }
 
-.containercard, .cardheader {
+.containercard,
+.cardheader,
+.container {
+  background-color: #f3f4f8;
+}
+
+.list-group li {
   background-color: #f3f4f8;
 }
 
@@ -42,4 +50,16 @@ nav, footer, #header {
 
 .team {
   color: #009688;
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
 }/*# sourceMappingURL=main.css.map */
