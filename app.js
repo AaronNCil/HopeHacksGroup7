@@ -2,10 +2,12 @@ const express = require("express");
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const path = require('path');
+const axios = require('axios');
 
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
+
 app
 .use(express.static(path.join(__dirname, "/public")))
 .use(bodyParser.urlencoded({ extended: true }))
@@ -81,3 +83,4 @@ app.post("/api/user", (req, res) => {
   
 
   .listen(port, () => console.log(`Server listening on port ${port}`));
+
