@@ -28,7 +28,9 @@ h2{
 .containerheader{
     background-color: #3e0046;
 }
-.containercard,
+.containercard1,
+.containercard2,
+.containercard3,
 .cardheader, 
 .container{
     background-color: #f3f4f8;
@@ -37,10 +39,11 @@ h2{
     background-color: #f3f4f8;
 }
 .btn{
-    background-color: #3f51b5;
     color: #f3f4f8;
-    text-decoration: none;
 }
+.btn:hover{
+    text-decoration: none
+};
 .team{
     color: #009688
 };
