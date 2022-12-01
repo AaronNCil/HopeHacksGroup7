@@ -40,7 +40,7 @@ function handleFetch(data) {
 
 //fetching first party api
 const dataList = document.querySelector('.containercard1');
-const solutionList = document.querySelector('.containercard2')
+const solutionList = document.querySelector('.containercard2');
 
 function loadJSON(){
     fetch('data.json') // grabs json data
@@ -70,7 +70,7 @@ function solutionJSON(){
         let html = '';  // sets html variable
         data.forEach(data => { // runs for each product array/object.
             html += `
-            <div class="card border-0 mb-5 p-5" style="background-color: #f3f4f8;">
+            <div class="card border-0 p-5" style="background-color: #f3f4f8;">
         <div class="row">
             <div class="col-md-4">
                 <img src="${data.img}" alt="" class="img-fluid">
@@ -78,7 +78,7 @@ function solutionJSON(){
             <div class="col-md-8">
                 <h2 class="card-title mt-3">${data.title}</h2>
                 <p>${data.description}</p>
-                <button class="btn mb-3" href="${data.link}">Learn more</button>
+                <a href="${data.link}" class="btn btn-md active" role="button" aria-pressed="true">Learn more</a>
             </div>
         </div>
     </div>
