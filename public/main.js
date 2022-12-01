@@ -3,27 +3,22 @@ console.log('file hit')
 // document.addEventListener('DOMContentLoaded', fetchApi)
 
 function fetchApi() {
-
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '7087214a9emsh2b3eb209e31f6ccp1afb12jsnc9ce2ca2d443',
-            'X-RapidAPI-Host': 'air-quality.p.rapidapi.com'
+            'X-Api-Key': '8RUTY+XAjAVFEnXtdwZ+pw==Zfc7t1qOSLxoQL1o',
         }
     };
-
-    fetch('https://air-quality.p.rapidapi.com/current/airquality?lon=-73.00597&lat=40.71427', options)
+    fetch('https://api.api-ninjas.com/v1/airquality?city=London', options)
         .then(response => response.json())
         .then(response => handleFetch(response))
         .catch(err => console.error(err));
-
 }
-
 function handleFetch(data) {
-
-    console.log(data.data[0]['aqi']);
-
+    console.log(data)
 }
+
+
 
 // const data = {
 //     aqui: 22,
