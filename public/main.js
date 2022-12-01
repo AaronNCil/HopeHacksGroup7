@@ -1,6 +1,6 @@
 console.log('file hit')
 // Upon the page loading call the 'fetchapi function'
-document.addEventListener('DOMContentLoaded', fetchApi)
+// document.addEventListener('DOMContentLoaded', fetchApi)
 
 function fetchApi() {
 
