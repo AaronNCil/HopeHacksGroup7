@@ -1,11 +1,11 @@
 # HopeHacksGroup7
 
-![Logo](public/img/logo-no-background (1).svg)
+![Logo](public/img/logo.png)
 
 
 # AQI NC
  
-AQI NC is designed to bring awareness to pollution around the world you can search different cities air qualities. Carbon monoxide levels, sulphur dioxide levels. Use the resources in our website to learn more about pollution and what you can do to make this planet a more breathable place!
+AQI NC is designed to bring awareness to pollution around the world you can search different city's air quality, carbon monoxide levels, and sulphur dioxide levels. Use the resources in our website to learn more about pollution and what you can do to make this planet a more breathable place!
 
 # Getting Started
 Clone this repository into your terminal ---> https://github.com/AaronNCil/HopeHacksGroup7
