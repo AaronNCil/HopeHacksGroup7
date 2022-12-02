@@ -29,10 +29,10 @@ RapidAPI - Used to build third party map API
 First Party Api - Usage of Json file 
 
 # Authors
-Aaron Cil - Deveoloper - Github
-Isaac Chavez - Deveoloper - Github
-Phat Ngo - Deveoloper - Github
-Destiny Hebron - Deveoloper - Github
+- Aaron Cil - Deveoloper - Github
+- Isaac Chavez - Deveoloper - Github
+- Phat Ngo - Deveoloper - Github
+- Destiny Hebron - Deveoloper - Github
 
 # License
 This license is under MIT License - for more information view License
