@@ -11,7 +11,7 @@ function loadJSON(){
             html += `
             <div class="card d-flex justify-content-center border-0" style="width: 18rem;">
             <div class="card-body" style="background-color: #f3f4f8;">
-              <h3 class="card-title">${data.title}</h3>
+              <h3 class="card-title my-4">${data.title}</h3>
               <div class='container'></div>
               <p class="card-text">${data.description}</p>
               <a href="${data.link}" class="btn btn-sm my-1 text-dark" role="button" aria-pressed="true">Read more</a>

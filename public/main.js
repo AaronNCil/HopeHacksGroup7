@@ -13,6 +13,7 @@ function fetchApi() {
         .catch(err => console.error(err));
 }
 function handleFetch(data) {
+    console.log(data)
     let aqi = document.getElementById('AQI')
     let cm = document.getElementById('CM')
     let nd = document.getElementById('ND')
@@ -64,3 +65,4 @@ function handleCity(){
         return `${input.value}`;
     }
 }
+
