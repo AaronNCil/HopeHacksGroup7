@@ -1,6 +1,7 @@
 # HopeHacksGroup7
 
 ![(https://github.com/AaronNCil/HopeHacksGroup7/blob/main/public/img/logo-no-background(1).svg?raw=true)]
+<img src="public/img/logo-no-background(1).svg" alt="Logo" title="Logo">
 
 # AQI NC
  
@@ -25,8 +26,8 @@ Open project through command line tool ---> npm start
 - MySql - Database
 
 # API Used
-RapidAPI - Used to build third party map API
-First Party Api - Usage of Json file 
+- RapidAPI - Used to build third party map API
+- First Party Api - Usage of Json file 
 
 # Authors
 - Aaron Cil - Deveoloper - Github
