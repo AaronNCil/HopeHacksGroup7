@@ -14,7 +14,7 @@ function loadJSON(){
               <h3 class="card-title">${data.title}</h3>
               <div class='container'></div>
               <p class="card-text">${data.description}</p>
-              <a href="${data.link}" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Our solutions</a>
+              <a href="${data.link}" class="btn btn-sm my-1 text-dark" role="button" aria-pressed="true">Read more</a>
             </div>
           </div>
       ` 
@@ -38,7 +38,7 @@ function solutionJSON(){
             <div class="col-md-8">
                 <h2 class="card-title mt-3">${data.title}</h2>
                 <p>${data.description}</p>
-                <a href="${data.link}" class="btn btn-md active" role="button" aria-pressed="true">Learn more</a>
+                <a href="${data.link}" class="btn btn-sm my-1 text-dark" role="button" aria-pressed="true" target="_blank">Learn more</a>
             </div>
         </div>
     </div>

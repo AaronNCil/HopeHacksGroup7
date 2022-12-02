@@ -61,6 +61,6 @@ function handleCity(){
         input.value = "London"
         return input.value;
     } else {
-        return `City: ${input.value}`;
+        return `${input.value}`;
     }
 }

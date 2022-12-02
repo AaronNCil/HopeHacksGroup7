@@ -20,18 +20,21 @@
 <nav class="navbar navbar-dark">
   <div class="container">
       <a href="main.html" class="navbar-brand">
-      <img src="img/logo-no-background (1).svg" class="my-4" alt="logo" height="150">
+      <img src="img/logo-no-background (1).svg" class="my-3 p-0" alt="logo" height="150">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="navmenu">
-      <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+          <a href="main.html" class="nav-link px-5">Home</a>
+      </li>
+      <li class="nav-item">
           <a href="aqi.html" class="nav-link px-5">Air Quality</a>
-          </li>
-          <li class="nav-item">
+      </li>
+      <li class="nav-item">
           <a href="solution.html" class="nav-link px-5">Our Solutions</a>
-          </li>
-      </ul>
+      </li>
+  </ul>
   </div>
   </div>
 </nav>
@@ -40,18 +43,21 @@
   <div class="containerheader p-3">
     <div class="d-sm-flex">
       <div>
-        <h1 class="m-3">TEAM 7
-          <span class="team">HH</span>
+        <h1 class="m-3 text-light">AQI
+          <span class="team">NC</span>
         </h1>
-          <p class="lead m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos optio, voluptatibus facere fuga, eum minima blanditiis deserunt reprehenderit qui beatae a, nam rem soluta vitae temporibus consequatur accusamus laudantium.</p>
-          <button class="btn btn-primary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#contact">Contact</button>
+          <p class="lead m-4">Everyone can help limit climate change. From the way we travel, to the electricity we use, the food we eat, and the things we buy, we can make a difference.
+            <br>
+            <br>
+            Greenhouse gas emissions per person vary greatly among countries. In the United States of America, emissions in 2020 were 14.6 tons of CO2 equivalent per person - more than double the global average of 6.3 tons.</p>
+          <button class="btn btn-lg m-3" data-bs-toggle="modal" data-bs-target="#contact">Contact</button>
         </div>
           <img class="img-fluid w-50 m-4" src="/img/undraw_weather_notification_re_3pad-2.svg" alt="weather forecast">
     </div>
   </div>
 </section>
     <!-- CARD -->
-    <h1 class="cardheader text-center d-flex justify-content-center m-0 p-5">Our solutions to the polution problem</h1>
+    <h1 class="cardheader text-center d-flex justify-content-center m-0 p-5">Our <span class="team">&nbspsolutions&nbsp;</span> to polution</h1>
     <div class="containercard1 text-wrap d-flex justify-content-evenly flex-row-reverse  p-5">
     <!-- <div class="card d-flex justify-content-center border-0" style="width: 18rem;">
       <div class="card-body" style="background-color: #f3f4f8;">
@@ -93,7 +99,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="contactLabel">Get in touch!</h5>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn text-dark" data-bs-dismiss="modal">Close</button>
             </button>
           </div>
           <div class="modal-body">
@@ -140,7 +146,7 @@
                   ></textarea>
                 </div>
                 <div class="form-group col-12 d-grid">
-                  <button type="submit" class="btn btn-brand">Contact me</button>
+                  <button type="submit" class="btn text-dark">Contact us!</button>
                 </div>
               </form>
             </div>
