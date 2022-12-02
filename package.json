@@ -17,10 +17,7 @@
   },
   "homepage": "https://github.com/AaronNCil/HopeHacksGroup7#readme",
   "dependencies": {
-<<<<<<< HEAD
-=======
     "axios": "^1.2.0",
->>>>>>> 5c48a563ef5de72a12ec66f23d1cf8ac6aff9c87
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -28,10 +25,7 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "node": "^19.1.0",
-<<<<<<< HEAD
-=======
     "node-fetch": "^3.3.0",
->>>>>>> 5c48a563ef5de72a12ec66f23d1cf8ac6aff9c87
     "nodemon": "^2.0.20",
     "prohairesis": "^1.2.5"
   }
