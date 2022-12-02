@@ -16,13 +16,13 @@ Install dependencies in terminal ---> npm install
 Open project through command line tool ---> npm start
 
 # Built with
-Node.JS - Development for server
-Express.JS - Backend framework
-Bootstrap - Css framework
-JavaScript - Frontend framework
-Html - Markup Language
-Css - Styling tool
-MySql - Database
+- Node.JS - Development for server
+- Express.JS - Backend framework
+- Bootstrap - Css framework
+- JavaScript - Frontend framework
+- Html - Markup Language
+- Css - Styling tool
+- MySql - Database
 
 # API Used
 RapidAPI - Used to build third party map API
