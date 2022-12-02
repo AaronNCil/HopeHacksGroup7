@@ -1,6 +1,6 @@
 # HopeHacksGroup7
 
-![alt text](https://github.com/AaronNCil/HopeHacksGroup7/main/public/img/logo-no-background(1).svg?raw=true)
+![Logo](public/img/logo-no-background (1).svg)
 
 
 # AQI NC
@@ -30,10 +30,10 @@ Open project through command line tool ---> npm start
 - First Party Api - Usage of Json file 
 
 # Authors
-- Aaron Cil - Deveoloper - Github
-- Isaac Chavez - Deveoloper - Github
-- Phat Ngo - Deveoloper - Github
-- Destiny Hebron - Deveoloper - Github
+- Aaron Cil - Deveoloper - [Github](https://github.com/AaronNCil)
+- Isaac Chavez - Deveoloper - [Github](https://github.com/Icvza) 
+- Phat Ngo - Deveoloper - [Github](https://github.com/PhatNgo13)
+- Destiny Hebron - Deveoloper - [Github](https://github.com/dmhebron)
 
 # License
 This license is under MIT License - for more information view License
