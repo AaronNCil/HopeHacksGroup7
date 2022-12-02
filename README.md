@@ -1,6 +1,6 @@
 # HopeHacksGroup7
 
-![Logo](/Users/destinyhebron/Desktop/Projects/HopeHacksGroup7/public/img/logo-no-background (1).svg)
+![Logo](public/img/logo-no-background (1).svg)
 
 
 # AQI NC
