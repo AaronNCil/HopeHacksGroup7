@@ -1,7 +1,7 @@
 # HopeHacksGroup7
 
-![(https://github.com/AaronNCil/HopeHacksGroup7/blob/main/public/img/logo-no-background(1).svg?raw=true)]
-<img src="public/img/logo-no-background (1).svg" alt="Logo" title="Logo">
+![alt text](https://github.com/AaronNCil/HopeHacksGroup7/main/public/img/logo-no-background(1).svg?raw=true)
+
 
 # AQI NC
  
