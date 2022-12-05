@@ -1,0 +1,38 @@
+// Display map API
+// let displayMap = (input) => {
+//     let cityMap = "London"
+//     request.get({
+//         url: 'https://api.api-ninjas.com/v1/city?name=' + cityMap,
+//         headers: {
+//             'X-Api-Key': 'YOUR_API_KEY'
+//         },
+//     }),
+//     console.log(cityMap)
+//     function mapAPi (){
+//         let location = {cityMap.lang cityMap.long}
+//         const map = new google.maps.Map(document.getElementById("map"), {
+//             zoom: 4,
+//             center: location,
+//             });
+//             new google.maps.Marker({
+//                 position: location,
+//                 map,
+//                 title: `${input}`
+//                 });
+//             }
+//     }
+// };
+// displayMap();
+
+// let fetchMap = () => {
+//     const options = {
+//         method: 'GET',
+//         headers: {
+//             'X-Api-Key': '8RUTY+XAjAVFEnXtdwZ+pw==Zfc7t1qOSLxoQL1o',
+//         }
+//     };
+//     fetch('https://api.api-ninjas.com/v1/city?name=' + input, options)
+//     .then(response => response.json())
+//     .then(response => console.log(response))
+//     .catch(err => console.error(err));
+// }
