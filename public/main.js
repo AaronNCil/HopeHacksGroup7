@@ -39,7 +39,7 @@ function handleFetch(data) {
 const input = document.getElementById("searchInput");
 input.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
-        handleSearch(event)
+      handleSearch(event)
     }
 });
 
@@ -52,17 +52,60 @@ function handleSearch(event) {
         }
     };
     fetch(`https://api.api-ninjas.com/v1/airquality?city=${city}`, options)
-        .then(response => response.json())
-        .then(response => handleFetch(response))
-        .catch(err => console.error(err));
+      .then(response => response.json())
+      .then(response => handleFetch(response))
+      .catch(err => console.error(err));
+  handleMap(event);
 }
 
+//MAP API
+function handleMap(event) {
+  console.log("Saigon", event)
+  let city = input.value
+  const options = {
+    method: "GET",
+    headers: {
+      "X-Api-Key": "8RUTY+XAjAVFEnXtdwZ+pw==Zfc7t1qOSLxoQL1o",
+    },
+  };
+  fetch(`https://api.api-ninjas.com/v1/city?name=${city}`, options)
+    .then(response => response.json())
+    .then(response => {
+        let lat = response[0].latitude;
+        let long = response[0].longitude;
+      console.log(lat, long);
+      initMap(lat, long);
+      })
+      .catch(err => console.error(err));
+    ;
+}
+function initMap(lat, long) {
+  console.log("hit");
+  const myLatLng = { lat: lat, lng: long };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 8,
+    center: myLatLng,
+  });
+
+  new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: "Hello World!",
+  });
+}
+
+window.initMap = initMap;
+// function handleGoogle(response) {
+//   let lat = response[0].latitude
+//   let long = response[0].longitude
+//   console.log(lat, long);
+//   }
 function handleCity(){
     if (input.value == ""){
         input.value = "London"
         return input.value;
     } else {
         return `${input.value}`;
-    }
+    } 
 }
 
